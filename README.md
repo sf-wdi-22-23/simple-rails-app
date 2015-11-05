@@ -7,6 +7,7 @@ cd THIS_REPO
 bundle install
 rake db:create
 rake db:migrate
+rake db:seed
 rails s
 ```
 Then view on `localhost:3000`! 
