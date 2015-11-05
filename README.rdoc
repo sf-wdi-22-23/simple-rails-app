@@ -1,28 +1,12 @@
-== README
+Solution for [d06-d4-dusk-intro-active-record](https://github.com/sf-wdi-22-23/modules-23/tree/master/w06-ruby-on-rails/d4-dusk-intro-active-record) stretch challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+To run:
+```bash
+git clone THIS_REPO
+cd THIS_REPO
+bundle install
+rake db:create
+rake db:migrate
+rails s
+```
+Then view on `localhost:3000`! 
