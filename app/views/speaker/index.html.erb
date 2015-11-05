@@ -1,0 +1,5 @@
+<ul>
+  <% @speaker.each do |s| %>
+    <li><%=s.first_name%> <%=s.last_name%>, <%=s.email%></li>
+  <%end%>
+</ul>
